@@ -9,10 +9,12 @@ version := "0.0.1"
 
 organization := "com.couchmate"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.11.8"
+
+crossScalaVersions := Seq("2.11.8", "2.12.1")
 
 libraryDependencies +=
-  "org.webjars" % "js-cookie" % "2.1.0"
+  "org.webjars" % "js-cookie" % "2.1.3"
 
 jsDependencies +=
-  "org.webjars" % "js-cookie" % "2.1.0" / "js.cookie.js"
+  "org.webjars" % "js-cookie" % "2.1.3" / "js.cookie.js"
