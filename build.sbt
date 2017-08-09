@@ -12,7 +12,7 @@ organization := "com.couchmate"
 scalaVersion := "2.11.7"
 
 libraryDependencies +=
-  "org.webjars" % "js-cookie" % "2.1.0"
+  "org.webjars" % "js-cookie" % "2.1.3"
 
 jsDependencies +=
-  "org.webjars" % "js-cookie" % "2.1.0" / "js.cookie.js"
+  "org.webjars" % "js-cookie" % "2.1.3" / "js.cookie.js"
